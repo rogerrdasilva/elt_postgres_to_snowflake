@@ -41,7 +41,7 @@ Com essas informações, conseguimos conectar ao Postgres de exemplo com a ferra
 
 Estrutura de tabelas na origem (PgAdmin):
 
-![OnPremises]()
+![OnPremises](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/database_origem.jpg)
 
 # Orquestrador: Apache Airflow
 
