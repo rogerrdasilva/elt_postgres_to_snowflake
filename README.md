@@ -22,7 +22,7 @@
 
 ## Arquitetura
 
-![Arquitetura]()
+![Arquitetura](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/arquitetura.png)
 
 
 ## Modelagem de dados dimensional proposta:
