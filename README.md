@@ -48,7 +48,7 @@ Estrutura de tabelas na origem (PgAdmin):
 Existem muitas formas de utilizar o Apache Airflow em cloud para ingestão ou migração de dados de um ambiente on premise, como por exemplo:
 - Airflow gerenciado por cloud (AWS - MWAA / GCP Composer): Esta forma é escalável e gerenciada pelos provedores cloud, sendo bastante recomendado;
 - Airflow com K8s: No Kubenetes, se tem o melhor do open source e gerenciamento;
-- Utilizar o Astro CLI: A forma mais simples de estudar Airflow, por ser local, e bem abstraída. Poderiamos, por exemplo, realizar todo o desenvolvimento local em seguida iniciar uma VM em cloud e realizar o pull da imagem docker local para o repositório de imagens docker, e dentro da VM realizar um Push desta imagem.
+- Utilizar o Astro CLI: A forma mais simples de utilizar Airflow, por ser local. Poderíamos, por exemplo, realizar todo o desenvolvimento local em seguida iniciar uma VM em cloud e realizar o pull da imagem Docker local para o repositório de imagens Docker, e dentro da VM realizar um push desta imagem.
 - A forma que utilizaremos o Airflow neste projeto, embora com comandos shell um pouco mais complexos, foi a que uniu o melhor custo e escalabilidade para este estudo: Executar uma instância EC2 e dentro dessa máquina virtual instalar o Docker, Docker compose e persistir o volume. O passo a passo será explicado a seguir.
 
 ## Provisionar o Airflow na AWS EC2.
