@@ -14,7 +14,7 @@
 
 ## Pré requisitos:
 - PgAdmin;
-- Conta AWS (verificar gastos, dependendo da EC2 escolhida);
+- Conta AWS (verificar custos, dependendo da EC2 escolhida);
 - Conta dbt cloud;
 - Conta Snowflake (possui $400 doláres de free trial);
 - Conta Google (para utilizar o Looker como ferramenta de BI).
