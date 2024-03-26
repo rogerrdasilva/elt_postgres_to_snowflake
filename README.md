@@ -51,7 +51,7 @@ Existem muitas formas de utilizar o Apache Airflow em cloud para ingestão ou mi
 - Utilizar o Astro CLI: A forma mais simples de utilizar Airflow, por ser local. Poderíamos, por exemplo, realizar todo o desenvolvimento local em seguida iniciar uma VM em cloud e realizar o pull da imagem Docker local para o repositório de imagens Docker, e dentro da VM realizar um push desta imagem.
 - A forma que utilizaremos o Airflow neste projeto, embora com comandos shell um pouco mais complexos, foi a que uniu o melhor custo e escalabilidade para este estudo: Executar uma instância EC2 e dentro dessa máquina virtual instalar o Docker, Docker compose e persistir o volume. O passo a passo será explicado a seguir.
 
-## Provisionar o Airflow na AWS EC2.
+## Provisionar o Airflow na AWS EC2
 - Com uma conta ativa na AWS, no painel inicial procurar por EC2, escolher pela opção "Ubuntu". Para este estudo, utilizei a "t2.large" e os gastos estimados ficaram em $0,27.
 - É necessário criar uma "key pair" no momento de criação da instância, pois essa chave vai ser a conexão via SSH. Marcar a opção "Allow SSH traffic from", e podemos escolher somente o IP ou "anywhere". Por segurança, aconselho escolher apenas o IP para conexão. Por fim, clicar em instanciar e aguardar até que o status esteja em "running".
 
