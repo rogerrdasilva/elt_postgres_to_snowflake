@@ -32,10 +32,10 @@
 
 ## Conexão banco de dados Postgre (os dados podem sofrer alterações):
 
-host: 159.223.187.110
-dbname: novadrive
-user: etlreadonly
-password: novadrive376A@
+- host: 159.223.187.110
+- dbname: novadrive
+- user: etlreadonly
+- password: novadrive376A@
 
 Com essas informações, conseguimos conectar ao Postgres de exemplo com a ferramenta PgAdmin4 e realizar querys para consultar as tabelas de origem.
 
