@@ -25,12 +25,12 @@
 ![Arquitetura](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/arquitetura.png)
 
 
-## Modelagem de dados dimensional proposta:
+## Modelagem de dados dimensional:
 
 ![StarSchema](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/star_schema_relacionamento.png)
 
 
-## Banco de dados Postgres exemplo para conexão (mudar de acordo com o que você tiver):
+## Conexão banco de dados Postgre (os dados podem sofrer alterações):
 
 host: 159.223.187.110
 dbname: novadrive
