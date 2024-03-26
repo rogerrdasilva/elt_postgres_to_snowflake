@@ -4,7 +4,7 @@
 - Este projeto mostra uma pipeline ELT (Extract - Load - Transform) de um banco de dados PostgreSQL em ambiente on premises. Os dados são de uma concessionária de veículos e o banco de dados recebe atualizações constantes, recebendo valores transacionais assim que uma venda é realizada. 
 - O objetivo deste projeto é integrar ferramentas dos três estágios da ELT, respondendo as questões de negócio:
 
-## Questões do negócio:
+## Questões de negócio:
 
 ### 1. Realizar a análise de vendas por concessionária;
 ### 2. Quais foram as vendas por modelo de veículo;
@@ -279,19 +279,19 @@ sources:
 - Para rodar os modelos e visualizar as tabelas no Snowflake, basta clicar na CLI do próprio dbt IDE e digitar: 
 `dbt run`
 
-![DataWarehouse]()
+![DataWarehouse](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/snowflake_DW_completo.png)
 
 - Antes de realizar o deploy, é interessante realizar um test de data quality e data integrity. Na pasta tests do dbt, criar um arquivo chamado test.sql que está neste repositório na pasta `./tests`. Rodar o teste com o comando:
 `dbt test`
 
 - É possivel consultar a linhagem dos dados clicando em cada arquivo no dbt, por exemplo, a linhagem da tabela fato mostra o projeto completo:
 
-![DataLineage]()
+![DataLineage](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/data_lineage_dbt.png)
 
 # Criação do Dashboard:
 
 Foi criado via Google Looker Studio o dashboard que contém informações de vendas de carros por concessionárias, sendo possível filtrar por estado e por concessionária:
 
 
-![Dashboard]()
+![Dashboard](https://github.com/rogerrdasilva/elt_postgres_to_snowflake/blob/main/ImagesForReadme/dashboard_looker_studio.png)
 
