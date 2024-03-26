@@ -1,7 +1,7 @@
 
 # Pipeline ELT - Concessionária de veículos
 
-- Este projeto mostra uma pipeline ELT (Extract - Load - Transform) de um banco de dados PostgreSQL em ambiente on-premise. Os dados são de uma concessionária de veículos e o banco de dados recebe atualizações constantes, recebendo valores transacionais assim que uma venda é realizada. 
+- Este projeto mostra uma pipeline ELT (Extract - Load - Transform) de um banco de dados PostgreSQL em ambiente on premise. Os dados são de uma concessionária de veículos e o banco de dados recebe atualizações constantes, recebendo valores transacionais assim que uma venda é realizada. 
 - O objetivo deste projeto é integrar ferramentas dos três estágios da ELT, respondendo as questões de negócio:
 
 ## Questões de negócio:
@@ -45,7 +45,7 @@ Estrutura de tabelas na origem (PgAdmin):
 
 # Orquestrador: Apache Airflow
 
-Existem muitas formas de utilizar o Apache Airflow em cloud para ingestão ou migração de dados de um ambiente on premises, como por exemplo:
+Existem muitas formas de utilizar o Apache Airflow em cloud para ingestão ou migração de dados de um ambiente on premise, como por exemplo:
 - Airflow gerenciado por cloud (AWS - MWAA / GCP Composer): Esta forma é escalável e gerenciada pelos provedores cloud, sendo bastante recomendado;
 - Airflow com K8s: No Kubenetes, se tem o melhor do open source e gerenciamento;
 - Utilizar o Astro CLI: A forma mais simples de estudar Airflow, por ser local, e bem abstraída. Poderiamos, por exemplo, realizar todo o desenvolvimento local em seguida iniciar uma VM em cloud e realizar o pull da imagem docker local para o repositório de imagens docker, e dentro da VM realizar um Push desta imagem.
