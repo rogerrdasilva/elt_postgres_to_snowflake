@@ -1,5 +1,5 @@
 
-# ELT Pipeline - Marca de Carros - Vendas e análises
+# Pipeline ELT - Concessionária de veículos
 
 - Este projeto mostra uma pipeline ELT (Extract - Load - Transform) de um banco de dados PostgreSQL em ambiente on premises. Os dados são de uma concessionária de veículos e o banco de dados recebe atualizações constantes, recebendo valores transacionais assim que uma venda é realizada. 
 - O objetivo deste projeto é integrar ferramentas dos três estágios da ELT, respondendo as questões de negócio:
